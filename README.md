@@ -3,12 +3,6 @@
 </p>
 
 ---
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=00D9FF&center=true&vCenter=true&width=900&height=60&lines=halo%2C+aku+obitoGlory+&#x2728; ;suka+javascript%2C+html%2C+dan+css;ngulik+linux+pop!_os+setiap+hari;ngoding+buat+project+web+&#x1F680;" alt="typing animation"/>
-</p>
-
-
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=obitoGlory&label=visitors&style=flat&color=00d9ff" alt="views"/>
