@@ -30,7 +30,7 @@
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/za3vvd.gif" alt="obitoGlory" width="900" />
+  <img src="https://files.catbox.moe/vz1jpr.jpg" alt="obitoGlory" width="900" />
 </p>
 
 ---
