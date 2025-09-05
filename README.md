@@ -1,72 +1,292 @@
-<!-- 3D style header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=obitoGlory&fontAlign=50&fontAlignY=40&color=0:0f2027,50:203a43,100:2c5364&fontColor=ffffff&desc=javascript%20%7C%20html%20%7C%20css%20%7C%20linux(pop!_os)&descAlign=50&descAlignY=65" alt="header" />
-</p>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obitoGlory - Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lucide/web/dist/umd/lucide.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card-3d {
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            transition: all 0.3s ease;
+        }
+        
+        .card-3d:hover {
+            transform: translateY(-5px) rotateX(5deg);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .typing-animation {
+            overflow: hidden;
+            border-right: 2px solid #fff;
+            white-space: nowrap;
+            animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #fff }
+        }
+        
+        .skill-icon {
+            transition: all 0.3s ease;
+            filter: grayscale(30%);
+        }
+        
+        .skill-icon:hover {
+            transform: scale(1.2) translateY(-5px);
+            filter: grayscale(0%);
+        }
+        
+        .github-stats {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .github-stats:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .snake-animation {
+            filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #63b3ed, #4299e1, #3182ce);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: gradient 3s linear infinite;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% center; }
+            100% { background-position: 200% center; }
+        }
+        
+        .neon-border {
+            border: 1px solid transparent;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364) padding-box,
+                        linear-gradient(45deg, #63b3ed, #4299e1, #3182ce) border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 3D Style Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 gradient-text">obitoGlory</h1>
+            <div class="neon-border rounded-xl p-6 shadow-2xl">
+                <p class="text-xl md:text-2xl mb-2">javascript | html | css | linux(pop!_os)</p>
+                <div class="typing-animation max-w-max mx-auto text-lg md:text-xl">
+                    Web Developer & Linux Enthusiast
+                </div>
+            </div>
+        </div>
 
-<!-- typing animation -->
-<p align="center">
-  <a href="https://github.com/obitoGlory">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&center=true&vCenter=true&random=false&width=900&lines=halo%2C%20aku%20obitoGlory%20%E2%9C%A8;ngoprek%20javascript%20%2C%20html%2C%20dan%20css;ngulik%20linux%20pop!_os%20setiap%20hari;ngoding%20buat%20project%20web%20%F0%9F%9A%80" alt="typing" />
-  </a>
-</p>
+        <!-- About Section -->
+        <div class="card-3d neon-border rounded-xl p-6 mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-center gradient-text">Tentang Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg mb-4">
+                        Saya adalah seorang web developer yang fokus pada teknologi front-end seperti JavaScript, HTML, dan CSS.
+                    </p>
+                    <p class="text-lg mb-4">
+                        Saya menggunakan Pop!_OS sebagai sistem operasi utama untuk development dan gaming.
+                    </p>
+                    <p class="text-lg">
+                        Meskipun masih dalam proses belajar, saya sangat antusias untuk mengembangkan skill coding dan membuat proyek-proyek web yang menarik.
+                    </p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://files.catbox.moe/za3vvd.gif" alt="Coding Animation" class="rounded-xl max-w-full h-auto shadow-lg">
+                </div>
+            </div>
+        </div>
 
-<!-- quick badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=obitoGlory&label=visitors&style=flat" alt="views" />
-  <img src="https://img.shields.io/badge/javascript-%20-f7df1e.svg?logo=javascript&logoColor=000" alt="js" />
-  <img src="https://img.shields.io/badge/html5-%20-e34f26.svg?logo=html5&logoColor=fff" alt="html" />
-  <img src="https://img.shields.io/badge/css3-%20-1572b6.svg?logo=css3&logoColor=fff" alt="css" />
-  <img src="https://img.shields.io/badge/linux-pop!__os-48b9c7.svg?logo=linux&logoColor=fff" alt="linux" />
-</p>
+        <!-- Skills & Tools -->
+        <div class="card-3d neon-border rounded-xl p-6 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Skills & Tools</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-blue-500 rounded-xl flex items-center justify-center">
+                        <i data-lucide="code-2" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-orange-500 rounded-xl flex items-center justify-center">
+                        <i data-lucide="html5" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-blue-700 rounded-xl flex items-center justify-center">
+                        <i data-lucide="css3" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-yellow-500 rounded-xl flex items-center justify-center">
+                        <i data-lucide="cpu" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>Linux</span>
+                </div>
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-blue-600 rounded-xl flex items-center justify-center">
+                        <i data-lucide="react" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>React.js</span>
+                </div>
+                <div class="skill-icon text-center">
+                    <div class="w-16 h-16 mx-auto mb-2 bg-black rounded-xl flex items-center justify-center">
+                        <i data-lucide="nextjs" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span>Next.js</span>
+                </div>
+            </div>
+        </div>
 
----
+        <!-- Projects -->
+        <div class="card-3d neon-border rounded-xl p-6 mb-12">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Highlight Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-800 rounded-xl p-4 transition-all hover:bg-gray-700">
+                    <h3 class="text-xl font-semibold mb-2">Personal Website</h3>
+                    <p>Website pribadi yang dibangun dengan JavaScript, HTML, dan CSS.</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-4 transition-all hover:bg-gray-700">
+                    <h3 class="text-xl font-semibold mb-2">Custom Linux Setup</h3>
+                    <p>Konfigurasi dan optimalisasi Pop!_OS untuk development dan gaming.</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-4 transition-all hover:bg-gray-700">
+                    <h3 class="text-xl font-semibold mb-2">Web Playground</h3>
+                    <p>Eksperimen dengan animasi CSS dan interaksi JavaScript.</p>
+                </div>
+            </div>
+        </div>
 
-## 👋 tentang obitoGlory
-- 💻 fokus ke **javascript, html, css** untuk web development  
-- 🐧 linux user for gaming dan coding  
-- ⚡ pengen jago coding tapi gw prompter
-- 🚀 hoby: **makan dan tidur**  
+        <!-- GitHub Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="github-stats">
+                <h3 class="text-xl font-semibold mb-4 text-center">GitHub Stats</h3>
+                <div class="bg-gray-800 rounded-xl p-4 h-48 flex items-center justify-center">
+                    <p class="text-center">Grafik statistik GitHub akan muncul di sini</p>
+                </div>
+            </div>
+            <div class="github-stats">
+                <h3 class="text-xl font-semibold mb-4 text-center">GitHub Streak</h3>
+                <div class="bg-gray-800 rounded-xl p-4 h-48 flex items-center justify-center">
+                    <p class="text-center">Grafik streak GitHub akan muncul di sini</p>
+                </div>
+            </div>
+        </div>
 
----
+        <!-- Snake Animation -->
+        <div class="card-3d neon-border rounded-xl p-6 mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-center gradient-text">GitHub Contributions</h2>
+            <div class="snake-animation bg-gray-800 rounded-xl p-4">
+                <img src="https://raw.githubusercontent.com/obitoGlory/obitoGlory/output/github-contribution-grid-snake.svg" alt="Snake animation" class="w-full">
+            </div>
+        </div>
 
-<p align="center">
-  <img src="https://files.catbox.moe/vz1jpr.jpg" alt="obitoGlory" width="900" />
-</p>
+        <!-- Connect -->
+        <div class="text-center">
+            <h2 class="text-3xl font-bold mb-6 gradient-text">Terhubung dengan Saya</h2>
+            <a href="https://github.com/obitoGlory" class="inline-flex items-center bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-xl transition-all">
+                <i data-lucide="github" class="w-5 h-5 mr-2"></i>
+                Kunjungi GitHub Saya
+            </a>
+        </div>
+    </div>
 
----
-
-## 🛠️ stack & tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=javascript,html,css,linux&perline=4" alt="skills" />
-</p>
-
----
-
-## 📂 highlight project
-- 🔹 **personal website** → dibangun dengan js/html/css  
-- 🔹 **custom linux setup** → ngulik performance & tampilan di Pop!\_OS  
-- 🔹 **web playground** → coba-coba animasi, UI, dan interaktif frontend  
-
----
-
-## 📊 statistik github
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=obitoGlory&show_icons=true&theme=tokyonight" alt="stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=obitoGlory&theme=tokyonight" alt="streak" />
-</p>
-
----
-
-## 🐍 snake animation
-<p align="center">
-  <img src="https://raw.githubusercontent.com/obitoGlory/obitoGlory/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
-
----
-
-## 🌐 connect
-<p align="center">
-  <a href="https://github.com/obitoGlory">
-    <img src="https://img.shields.io/badge/github-obitoGlory-black?logo=github&style=for-the-badge" />
-  </a>
-</p>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Simple typing animation
+        const texts = [
+            "halo, aku obitoGlory ✨",
+            "ngoprek javascript, html, dan css",
+            "ngulik linux pop!_os setiap hari",
+            "ngoding buat project web 🚀"
+        ];
+        
+        let textIndex = 0;
+        let charIndex = 0;
+        let currentText = '';
+        let isDeleting = false;
+        let typingSpeed = 100;
+        
+        function type() {
+            const typingElement = document.querySelector('.typing-animation');
+            
+            if (!typingElement) return;
+            
+            if (isDeleting) {
+                // Remove characters
+                currentText = texts[textIndex].substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                // Add characters
+                currentText = texts[textIndex].substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            typingElement.textContent = currentText;
+            
+            // Adjust speed for deleting vs typing
+            let typeDelay = isDeleting ? typingSpeed / 2 : typingSpeed;
+            
+            // If word is complete
+            if (!isDeleting && currentText === texts[textIndex]) {
+                typeDelay = 2000; // Pause at end of sentence
+                isDeleting = true;
+            } else if (isDeleting && currentText === '') {
+                isDeleting = false;
+                textIndex++;
+                if (textIndex >= texts.length) textIndex = 0;
+                typeDelay = 500;
+            }
+            
+            setTimeout(type, typeDelay);
+        }
+        
+        // Start the typing animation
+        document.addEventListener('DOMContentLoaded', type);
+    </script>
+</body>
+</html>
