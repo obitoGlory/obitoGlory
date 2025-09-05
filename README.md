@@ -23,16 +23,14 @@
 
 ## 👋 tentang obitoGlory
 - 💻 fokus ke **javascript, html, css** untuk web development  
-- 🐧 pengguna setia **Linux Pop!\_OS** buat kerjaan sehari-hari  
-- ⚡ suka ngoprek dan bikin project personal dari kecil sampai besar  
-- 🚀 prinsip: **simple, efisien, stabil**  
+- 🐧 linux user for gaming dan coding  
+- ⚡ pengen jago coding tapi gw prompter
+- 🚀 hoby: **makan dan tidur**  
 
 ---
 
-## 🌌 3D demo / showcase
-> contoh banner/gif, ganti dengan gif/screenshoot project kamu biar makin personal  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/obitoGlory/obitoGlory/main/3d_banner.gif" alt="3d demo" width="900" />
+  <img src="https://files.catbox.moe/za3vvd.gif" alt="obitoGlory" width="900" />
 </p>
 
 ---
