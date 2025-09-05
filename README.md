@@ -57,9 +57,9 @@
 
 ---
 
-## 🐍 snake animation
+## 👨‍💻 coding animation
 <p align="center">
-  <img src="https://raw.githubusercontent.com/obitoGlory/obitoGlory/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="coding animation" width="300" style="border-radius: 12px; box-shadow: 0 0 15px #00d9ff;" />
 </p>
 
 ---
