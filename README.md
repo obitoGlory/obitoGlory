@@ -40,9 +40,9 @@
 
 ---
 
-## 🐾 Cat Zone
+## Animek
 <p align="center">
-  <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" width="300"/>
+  <img src="https://catbox.moe/bgs/texture3.png" width="300"/>
 </p>
 
 ---
