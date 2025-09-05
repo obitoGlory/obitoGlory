@@ -1,12 +1,11 @@
-<!-- 3D style header -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=obitoGlory&fontAlign=50&fontAlignY=40&color=0:0f2027,50:203a43,100:2c5364&fontColor=ffffff&desc=javascript%20%7C%20html%20%7C%20css%20%7C%20linux(pop!_os)&descAlign=50&descAlignY=65" alt="header" />
 </p>
 
-<!-- typing animation -->
 <p align="center">
   <a href="https://github.com/obitoGlory">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&center=true&vCenter=true&random=false&width=900&lines=halo%2C%20aku%20obitoGlory%20%E2%9C%A8;ngoprek%20javascript%20%2C%20html%2C%20dan%20css;ngulik%20linux%20pop!_os%20setiap%20hari;ngoding%20buat%20project%20web%20%F0%9F%9A%80" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&center=true&vCenter=true&random=false&width=900&lines=halo%2C%20aku%20obitoGlory%20%E2%9C%A8;suka ngoding bot tele%20javascript%20%2C%20html%2C%20dan%20css;ngulik%20linux%20pop!_os%20setiap%20hari;ngoding%20buat%20project%20web%20%F0%9F%9A%80" alt="typing" />
   </a>
 </p>
 
@@ -57,7 +56,7 @@
 
 ---
 
-## 👨‍💻 coding animation
+## 👨‍💻 happy cat
 <p align="center">
   <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="coding animation" width="300" style="border-radius: 12px; box-shadow: 0 0 15px #00d9ff;" />
 </p>
