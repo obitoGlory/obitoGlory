@@ -1,58 +1,72 @@
-<h1 align="center">Yo! 👋, I'm obitoGlory</h1>
+<!-- 3D style header -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=obitoGlory&label=Profile%20views&color=0e75b6&style=flat" alt="obitoGlory" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=obitoGlory&fontAlign=50&fontAlignY=40&color=0:0f2027,50:203a43,100:2c5364&fontColor=ffffff&desc=javascript%20%7C%20html%20%7C%20css%20%7C%20linux(pop!_os)&descAlign=50&descAlignY=65" alt="header" />
 </p>
 
+<!-- typing animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub!;Fullstack+Dev+%7C+Learner+%7C+Tech+Enthusiast;Let's+build+something+cool!&center=true&width=500&height=50">
+  <a href="https://github.com/obitoGlory">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&center=true&vCenter=true&random=false&width=900&lines=halo%2C%20aku%20obitoGlory%20%E2%9C%A8;ngoprek%20javascript%20%2C%20html%2C%20dan%20css;ngulik%20linux%20pop!_os%20setiap%20hari;ngoding%20buat%20project%20web%20%F0%9F%9A%80" alt="typing" />
+  </a>
 </p>
 
----
-
-## 🚀 About Me
-- 🌱 I’m currently learning **AI, Cloud, Fullstack Dev**
-- 🔭 I’m working on **open-source tools & personal projects**
-- 💬 Ask me about **JavaScript, React, Java**
-- ⚡ Fun fact: **Ngoding sambil dengerin lagu**
-
----
-
-## 🛠️ Tech Stack
+<!-- quick badges -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>
+  <img src="https://komarev.com/ghpvc/?username=obitoGlory&label=visitors&style=flat" alt="views" />
+  <img src="https://img.shields.io/badge/javascript-%20-f7df1e.svg?logo=javascript&logoColor=000" alt="js" />
+  <img src="https://img.shields.io/badge/html5-%20-e34f26.svg?logo=html5&logoColor=fff" alt="html" />
+  <img src="https://img.shields.io/badge/css3-%20-1572b6.svg?logo=css3&logoColor=fff" alt="css" />
+  <img src="https://img.shields.io/badge/linux-pop!__os-48b9c7.svg?logo=linux&logoColor=fff" alt="linux" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=obitoGlory&show_icons=true&theme=tokyonight" alt="obitoGlory GitHub stats" />
-</p>
+## 👋 tentang obitoGlory
+- 💻 fokus ke **javascript, html, css** untuk web development  
+- 🐧 linux user for gaming dan coding  
+- ⚡ pengen jago coding tapi gw prompter
+- 🚀 hoby: **makan dan tidur**  
+
+---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=obitoGlory&layout=compact&theme=tokyonight" alt="Top Langs" />
+  <img src="https://files.catbox.moe/vz1jpr.jpg" alt="obitoGlory" width="900" />
 </p>
 
 ---
 
-## Animek
+## 🛠️ stack & tools
 <p align="center">
-  <img src="https://catbox.moe/bgs/texture3.png" width="300"/>
+  <img src="https://skillicons.dev/icons?i=javascript,html,css,linux&perline=4" alt="skills" />
 </p>
 
 ---
 
-## 🔗 Connect with Me
+## 📂 highlight project
+- 🔹 **personal website** → dibangun dengan js/html/css  
+- 🔹 **custom linux setup** → ngulik performance & tampilan di Pop!\_OS  
+- 🔹 **web playground** → coba-coba animasi, UI, dan interaktif frontend  
+
+---
+
+## 📊 statistik github
 <p align="center">
-  <a href="https://github.com/obitoGlory" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://t.me/howtobans" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=obitoGlory&show_icons=true&theme=tokyonight" alt="stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=obitoGlory&theme=tokyonight" alt="streak" />
 </p>
 
 ---
 
-<p align="center">✨ Made with ❤️ + 🐱 vibes by obitoGlory ✨</p>
+## 🐍 snake animation
+<p align="center">
+  <img src="https://raw.githubusercontent.com/obitoGlory/obitoGlory/output/github-contribution-grid-snake.svg" alt="snake" />
+</p>
+
+---
+
+## 🌐 connect
+<p align="center">
+  <a href="https://t.me/howtobans">
+    <img src="https://img.shields.io/badge/telegram-obitoGlory-black?logo=telegram&style=for-the-badge" />
+  </a>
+</p>
