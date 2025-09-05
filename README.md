@@ -3,12 +3,10 @@
 </p>
 
 ---
-
 <p align="center">
-  <a href="https://github.com/obitoGlory">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=00D9FF&center=true&vCenter=true&width=900&height=60&lines=halo%2C+aku+obitoGlory+✨;suka+javascript%2C+html%2C+dan+css;ngulik+linux+pop!_os+setiap+hari;ngoding+buat+project+web+🚀" alt="typing animation"/>
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=00D9FF&center=true&vCenter=true&width=900&height=60&lines=halo%2C+aku+obitoGlory+&#x2728; ;suka+javascript%2C+html%2C+dan+css;ngulik+linux+pop!_os+setiap+hari;ngoding+buat+project+web+&#x1F680;" alt="typing animation"/>
 </p>
+
 
 ---
 
