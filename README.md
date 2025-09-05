@@ -4,7 +4,7 @@
 
 <p align="center" style="margin-top: 20px;">
   <a href="https://github.com/obitoGlory" style="text-decoration:none;">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1200&center=true&vCenter=true&width=900&height=60&lines=halo%2C+aku+obitoGlory+%E2%9C%A8;suka+ngoding+bot+tele+javascript;suka buat web pakai%2C+html%2C+dan+css;aku suka+linux+pop!_os;ngoding+buat+project+web+%F0%9F%9A%80" alt="typing animation" style="filter: drop-shadow(0 0 15px #00d9ff);" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1200&center=true&vCenter=true&width=900&height=60&lines=halo%2C+aku+obitoGlory+%E2%9C%A8;suka+ngoding+bot+tele+pkai+javascript,suka+buat+web+pakai+%2C+html%2C+dan+css;ngulik+linux+pop!_os+setiap+hari;ngoding+buat+project+web+%F0%9F%9A%80" alt="typing animation" style="filter: drop-shadow(0 0 15px #00d9ff);" />
   </a>
 </p>
 
